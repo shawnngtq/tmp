@@ -15,7 +15,7 @@ dependencies:
   - aioitertools=0.12.0
   - aiosignal=1.4.0
   - alabaster=1.0.0
-  - alembic=1.16.4
+  - alembic=1.16.5
   - altair=5.5.0
   - amqp=5.2.0
   - anaconda-catalogs=0.2.0
@@ -32,7 +32,7 @@ dependencies:
   - astroid=3.3.11
   - astropy=7.1.0
   - astropy-base=7.1.0
-  - astropy-iers-data=0.2025.8.18.0.40.14
+  - astropy-iers-data=0.2025.8.25.0.36.58
   - asttokens=3.0.0
   - async-lru=2.0.5
   - async-timeout=4.0.3
@@ -143,6 +143,7 @@ dependencies:
   - decorator=5.2.1
   - deepdiff=8.6.0
   - defusedxml=0.7.1
+  - deprecated=1.2.18
   - diff-match-patch=20241021
   - dill=0.4.0
   - distributed=2025.7.0
@@ -155,7 +156,7 @@ dependencies:
   - exceptiongroup=1.3.0
   - executing=2.2.0
   - expat=2.7.1
-  - faker=37.5.3
+  - faker=37.6.0
   - fastrlock=0.8.3
   - filelock=3.19.1
   - fire=0.7.0
@@ -164,7 +165,7 @@ dependencies:
   - flask-cors=6.0.1
   - fmt=9.1.0
   - fontconfig=2.14.2
-  - fonttools=4.59.1
+  - fonttools=4.59.2
   - fqdn=1.5.1
   - freetype=2.12.1
   - frozendict=2.4.6
@@ -188,11 +189,11 @@ dependencies:
   - google-auth-httplib2=0.2.0
   - googleapis-common-protos=1.70.0
   - greenlet=3.2.4
-  - griffe=1.12.1
+  - griffe=1.13.0
   - gst-plugins-base=1.14.1
   - gstreamer=1.14.1
   - h11=0.16.0
-  - h2=4.2.0
+  - h2=4.3.0
   - h5py=3.13.0
   - hdf5=1.14.3
   - heapdict=1.0.1
@@ -240,7 +241,7 @@ dependencies:
   - jellyfish=1.1.3
   - jinja2=3.1.6
   - jmespath=1.0.1
-  - joblib=1.5.1
+  - joblib=1.5.2
   - jpeg=9e
   - jplephem=2.23
   - jproperties=2.1.2
@@ -252,7 +253,7 @@ dependencies:
   - jsonschema-specifications=2025.4.1
   - jsonschema-with-format-nongpl=4.25.1
   - jupyter=1.1.1
-  - jupyter-lsp=2.2.6
+  - jupyter-lsp=2.3.0
   - jupyter_client=8.6.3
   - jupyter_console=6.6.3
   - jupyter_core=5.8.1
@@ -271,8 +272,8 @@ dependencies:
   - kombu=5.5.4
   - krb5=1.20.1
   - langchain=0.3.27
-  - langchain-core=0.3.74
-  - langchain-text-splitters=0.3.9
+  - langchain-core=0.3.75
+  - langchain-text-splitters=0.3.10
   - langcodes=3.4.1
   - langsmith=0.3.45
   - language-data=1.3.0
@@ -375,12 +376,12 @@ dependencies:
   - mergedeep=1.3.4
   - mistune=3.1.3
   - mkdocs=1.6.1
-  - mkdocs-autorefs=1.4.2
+  - mkdocs-autorefs=1.4.3
   - mkdocs-get-deps=0.2.0
   - mkdocs-material=9.6.18
   - mkdocs-material-extensions=1.3.1
   - mkdocstrings=0.30.0
-  - mkdocstrings-python=1.17.0
+  - mkdocstrings-python=1.18.0
   - mkl=2023.2.0
   - mkl-service=2.4.1
   - mkl_fft=1.3.10
@@ -395,14 +396,14 @@ dependencies:
   - multipledispatch=0.6.0
   - multiprocess=0.70.18
   - munkres=1.1.4
-  - murmurhash=1.0.10
+  - murmurhash=1.0.13
   - mypy=1.17.1
   - mypy_extensions=1.1.0
   - mysql=5.7.24
   - mysql-common=8.3.0
   - mysql-connector-python=8.3.0
   - mysql-libs=8.3.0
-  - narwhals=2.1.2
+  - narwhals=2.2.0
   - nbclient=0.10.2
   - nbconvert=7.16.6
   - nbconvert-core=7.16.6
@@ -428,9 +429,12 @@ dependencies:
   - openjpeg=2.5.2
   - openpyxl=3.1.5
   - openssl=3.5.2
+  - opentelemetry-api=1.36.0
+  - opentelemetry-instrumentation=0.57b0
+  - opentelemetry-semantic-conventions=0.57b0
   - orc=2.0.1
   - orderly-set=5.5.0
-  - orjson=3.11.2
+  - orjson=3.11.3
   - overrides=7.7.0
   - packaging=25.0
   - paginate=0.5.7
@@ -453,7 +457,7 @@ dependencies:
   - pip=25.2
   - pkce=1.0.3
   - pkginfo=1.12.1.2
-  - platformdirs=4.3.8
+  - platformdirs=4.4.0
   - plotly=6.3.0
   - pluggy=1.6.0
   - ply=3.11
@@ -461,8 +465,8 @@ dependencies:
   - polars-default=1.32.3
   - preshed=3.0.9
   - prometheus_client=0.22.1
-  - prompt-toolkit=3.0.51
-  - prompt_toolkit=3.0.51
+  - prompt-toolkit=3.0.52
+  - prompt_toolkit=3.0.52
   - propcache=0.3.1
   - protego=0.5.0
   - proto-plus=1.26.1
@@ -546,7 +550,7 @@ dependencies:
   - qtconsole-base=5.5.2
   - qtpy=2.4.3
   - queuelib=1.8.0
-  - rapidfuzz=3.13.0
+  - rapidfuzz=3.14.0
   - re2=2022.04.01
   - readline=8.2
   - readme_renderer=44.0
@@ -566,7 +570,7 @@ dependencies:
   - rich=14.1.0
   - roman-numerals-py=3.1.0
   - rope=1.14.0
-  - rpds-py=0.27.0
+  - rpds-py=0.27.1
   - rsa=4.9.1
   - rstcheck=6.2.5
   - rstcheck-core=1.2.2
@@ -601,11 +605,11 @@ dependencies:
   - sniffio=1.3.1
   - snowballstemmer=3.0.1
   - sortedcontainers=2.4.0
-  - soupsieve=2.7
+  - soupsieve=2.8
   - spacy=3.8.7
   - spacy-legacy=3.0.12
   - spacy-loggers=1.0.5
-  - sphinx=8.2.3
+  - sphinx=8.3.0
   - sphinxcontrib-applehelp=2.0.0
   - sphinxcontrib-devhelp=2.0.0
   - sphinxcontrib-htmlhelp=2.1.0
@@ -620,7 +624,7 @@ dependencies:
   - srsly=2.5.1
   - stack_data=0.6.3
   - statsmodels=0.14.5
-  - streamlit=1.48.1
+  - streamlit=1.49.0
   - sympy=1.14.0
   - tabulate=0.9.0
   - tbb=2021.9.0
@@ -654,9 +658,9 @@ dependencies:
   - typer-slim=0.16.1
   - typer-slim-standard=0.16.1
   - types-python-dateutil=2.9.0.20250822
-  - typing-extensions=4.14.1
+  - typing-extensions=4.15.0
   - typing-inspection=0.4.1
-  - typing_extensions=4.14.1
+  - typing_extensions=4.15.0
   - typing_utils=0.1.0
   - tzdata=2025b
   - uc-micro-py=1.0.3
@@ -770,11 +774,9 @@ dependencies:
       - oletools==0.60.2
       - opencensus==0.11.4
       - opencensus-context==0.1.3
-      - opentelemetry-api==1.36.0
       - opentelemetry-exporter-prometheus==0.57b0
       - opentelemetry-proto==1.36.0
       - opentelemetry-sdk==1.36.0
-      - opentelemetry-semantic-conventions==0.57b0
       - opentracing==1.3.0
       - opt-einsum==3.4.0
       - optree==0.17.0
